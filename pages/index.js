@@ -59,6 +59,22 @@ export default function Home() {
 
       </form>
       
+      <button
+                onClick={() => window.location.href = '/api/auth/login'}
+                style={{
+                    padding: '10px',
+                    margin: '5% 0 0 32%',
+                    backgroundColor: '#DB4437',
+                    color: '#fff',
+                    border: 'none',
+                    cursor: 'pointer',
+                    width: '100%',
+                    maxWidth: '400px',
+                }}
+            >
+                Login with Google
+            </button>
+
 
       <footer style={{ marginTop: '20px', fontSize: '0.9rem', color: '#0070f3', textAlign: 'center' }}>
                 <p style={{ cursor: 'pointer', margin: '5px 0' }} onClick={openDisclaimer}>
